@@ -1,0 +1,643 @@
+/*TABLET SCREENS*/
+@media(max-width: 1000px) {
+    /*HEADER*/
+    .Hoolix{
+        font-size: 1rem;
+    }
+    .nav-bar{
+        font-size: 0.8rem;
+    }
+    .lets-talk-container{
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+
+    /*HERO SECTION*/
+    .hero-section{
+        margin: 00px 40px 0px 40px;
+        display: flex;
+        column-gap: 20px;
+    }
+    .smart-ideas{ 
+        font-size: 3.5rem;
+        margin: 12px 0px 15px;
+    }
+    .hero-desc-text{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+    .hero-btn{
+        padding: 15px 20px;
+    }
+    .center{
+        height: 55px;
+        width: 55px;
+        padding: 18px;
+        font-size: 16px;
+        padding-left: 21px;
+    }
+
+
+    /*ABOUT SECTION*/
+.about-section{
+	display: flex;
+	margin: 30px 40px 30px 40px;
+	column-gap: 30px;
+}
+.about-text-heading{
+	font-size: 2.1rem;
+}
+.about-text-content{
+	font-size: 1rem;
+	line-height: 1.6rem;
+	margin-bottom: 2rem;
+}
+.list ul{
+	list-style-position: inside;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	margin-bottom: 2rem;
+}
+.know-more{
+    font-size: 0.9rem;
+	font-weight: bold;
+	padding: 10px 10px;
+}
+.about-more{
+	column-gap: 10px;
+}
+.medal-exp{
+	column-gap: 5px;
+}
+.fa-medal{
+	font-size: 2rem;
+}
+.experience{
+	font-size: 1.1rem;
+}
+
+ 
+
+    /*SERVICES SECTION*/
+    .services-section{
+        margin-top: 0px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 0;
+    }
+    .what-we-offer{
+        font-size: 1rem;
+    }
+    .creative-services{
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+    }
+    .get-the-most{
+        margin-bottom: 60px;
+        width: 85%;
+        margin: auto;
+        line-height: 1.4rem;
+    }
+    .services-img{
+        flex-basis: 40%;
+    }
+    .services-body{
+        flex-basis: 60%;
+    }
+    .services-heading{
+        font-size: 1.2rem;
+    }
+    .services-text{
+        font-size: 0.85rem;
+        line-height: 1.4rem;
+        margin-top: 15px;
+    }
+    .get-started{
+        width: 30%;
+    }
+
+    /*FEATURES*/
+    #features{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 00px;
+        margin-bottom: 0px;
+        padding-top: 120px;
+    } 
+    .features-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 35px;
+        margin-top: 80px;
+    }
+    .number{
+        font-size: 1.5rem;
+        padding: 6px 8px;
+    }
+    .features-heading{
+        font-size: 1.2rem;
+        margin: 8px;
+    }
+    .features-text{
+        font-size: 0.85rem;
+        line-height: 1.2rem;
+        margin: 8px;
+    }
+
+    /*FAQS SECTION*/
+    #faq{
+	    margin-left: 40px;
+	    margin-right: 40px;
+	    margin-top: 0px;
+	    margin-bottom: 60px;
+	    column-gap: 10px;
+    }
+    .frequently{
+        flex-basis:32%;
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+    .questions{
+        flex-basis: 68%;
+    }
+    .questions > div{
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+    #q1, #q2, #q3, #q4, #q5, #q6{
+        display: flex;
+        justify-content: space-between;
+    }
+    .fa-plus{
+        font-size: 0.6rem;
+        align-self: center;
+    }
+    #answer1, #answer2, #answer3, #answer4, #answer5{
+        font-size: 0.7rem;
+        line-height: 1.05rem;
+    }
+
+    /*FOOTER SECTION*/
+    #footer{
+	    padding-bottom: 30px;
+    }
+    .footer-body{
+	    padding: 80px 40px 30px 40px;
+	    column-gap: 30px;
+	    font-family: 'Raleway', sans-serif;
+        flex-wrap: wrap;
+    }
+    .Hool{
+        flex-basis: 100%;
+    }
+    .Hool-body{
+        line-height: 1.4rem;
+        font-size: 0.9rem;
+    }
+    .email-form{
+        margin: 12px 0;
+        width: 100%;
+    } 
+    .email{
+        font-size: .9rem;
+        padding: 10px;
+        outline-width: 0.5px;
+        outline-offset: 2px;
+    }
+    button{
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+    .fa-paper-plane{
+        font-size: 1.2rem;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    .our-services{
+        flex-basis: 29%;
+        line-height: 0.9rem;
+    }
+    .our-services a{
+        font-size: 0.85rem;
+        padding:0 0px;
+    }
+    .our-services-heading{
+        font-size: 1.5rem; 
+        margin-bottom: 25px;
+    }
+    .Company{
+        line-height: 0.9rem;
+        flex-basis: 30%;
+    }
+    .Company-heading{
+        font-size:1.5rem; 
+        margin-bottom: 25px;
+    }
+    .Company a{
+        font-size: 0.85rem;
+        padding:0 0px;
+    }
+    #Contact-Us{
+        flex-basis: 100%;
+        line-height: 1.2rem;
+    }
+    #Contact-Us main{
+        font-size: 1.3rem; 
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    #Contact-Us p{
+        line-height: 1.2rem;
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+    .social-media i{
+        padding: 7px;
+    }
+    .footer-end{
+        margin-top: 10px;
+    }
+    .copyright{
+        padding-left: 20px; 
+        font-size: 0.9rem;
+    }
+    .privacy-terms{
+        display: flex; 
+        padding-right: 20px; 
+        column-gap: 20px;
+        font-size: 0.9rem;
+    }
+   
+}
+
+
+
+
+/*RESPONSIVE NAV BAR*/
+@media(max-width: 700px) {
+	.Hoolix{
+		margin-left: 50px;
+	}
+	.lets-talk-container >i{
+		display: block;
+	}
+	.lets-talk{
+		display: none;
+	}
+	.nav-bar div{
+		display: none;
+	}
+	#header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+		padding-left: 20px;
+		padding-right: 25px;
+	}
+}
+
+
+
+
+/*MOBILE SCREENS*/
+@media(max-width: 700px) {
+    .hero-section{
+        margin: 0px auto 0px auto;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-top: 100px;
+    }
+    .hero-text{
+        margin: auto;
+        flex-basis: 100%;
+    }
+    .hero-subtitle{
+        font-size: 15px; 
+        text-align: center;
+    }
+    .smart-ideas{
+        font-weight: bold; 
+        font-size: 2.4rem;
+        margin: 10px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .hero-desc-text{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        margin-bottom: 1.4rem;
+        text-align: center;
+        margin: 0 5px;
+    }
+    
+    .discover-play{
+        justify-content: space-evenly;
+        margin: 10px auto;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .hero-btn{
+        flex-basis: 80%;
+        padding: 10px 5px;
+        font-size: 0.7rem;
+    }
+    .center{
+        flex-basis: 20%;
+        height: 40px;
+        width: 40px;
+        padding: 15px;
+        font-size: 10px;
+        padding-left: 16px;
+        text-align: center;
+    }
+
+    .hero-image{
+        margin: auto;
+        flex-basis: 88%;
+        margin-top: 20px;
+    }
+
+    /*ABOUT SECTION*/
+    .about-section{
+        flex-wrap: wrap;
+        margin: 0px auto;
+        padding-top: 100px;
+    }
+    .about-image{
+        margin: auto;
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    .about-text{
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    .about-text-heading{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .about-text-content{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        margin-bottom: 1.4rem;
+        text-align: center;
+    }
+    .list ul{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.4rem;
+    }
+    .about-more{
+        column-gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .know-more{
+        font-weight: normal;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .medal-exp{
+        flex-basis: 50%;
+    }
+    .fa-medal{
+        font-size: 1.5rem;
+    }
+    .medal-exp div{
+        font-size: 0.9rem;
+    }
+
+    /*SERVICES SECTION*/
+    .services-section{
+        margin: 0px auto;
+        padding-top: 100px;
+       
+    }
+    .what-we-offer{
+        font-size: 1rem;
+    }
+    .creative-services{
+        font-size: 1.8rem;
+        padding: 0;
+        margin: 10px auto;
+    }
+    .get-the-most{
+        width: 100%;
+        line-height: 1.2rem;
+        font-size: 0.9rem;
+        margin: 0px auto;
+    }
+    .services-container{
+        margin-top: 40px;
+	    margin-bottom: 20px;
+        grid-template-columns: 1fr;
+    }
+    .services-box{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px;
+	    padding-bottom: 5px;
+    }
+    .services-img{
+        flex-basis: 50%;
+        margin-top: 0;
+    }
+    .services-body{
+        flex-basis: 100%;
+    }
+    .services-heading{
+        font-size: 1.1rem;
+    }
+    .services-text{
+        line-height: 1.1rem;
+        font-size: 0.8rem;
+        margin-top: 9px;
+    }
+    .services-text a{
+        line-height: 1.1rem;
+        font-size: 0.8rem;
+    }
+    .get-started{
+        width: 40%;
+        margin: 10px auto;
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    /*FEATURES SECTION*/
+    #features{
+        margin: 0px auto;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .features-list{
+        grid-template-columns: 1fr;
+        grid-row-gap: 45px;
+        margin: 40px 10px;
+    }
+    .features-heading{
+        margin: 10px 10px 0px 10px;
+        font-size: 1.3rem;
+    }
+    .features-text{
+        line-height: 1.1rem;
+        font-size: 0.8rem;
+    }
+    .number{
+        font-size: 1.2rem;
+        padding: 6px 7px;
+        margin-top: -100px;
+margin-left: 10px;
+    }
+
+
+    #faq{
+        margin: 0px 20px;
+        padding-top: 80px;
+        flex-wrap: wrap;
+    }
+    .frequently{
+        flex-basis: 90%;
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .questions{
+        flex-basis: 100%;
+    }
+    #q1, #q2, #q3, #q4, #q5, #q6{
+      font-size: 0.8rem;
+      padding: 8px 8px;
+     
+    }
+    .questions > div{
+        margin-bottom: 10px;
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+    .fa-plus, .fa-minus{
+        font-size: 0.6rem;
+        align-self: center;
+    }
+    #answer1, #answer2, #answer5, #answer5, #answer5{
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+    }
+
+
+    /*FOOTER*/
+    #footer{
+        margin-top: 30px;
+        padding-top: 60px;
+    }
+    .footer-body{
+        flex-wrap: wrap;
+        padding: 0px 20px 5px 20px;
+    }
+    .Hool{
+        flex-basis: 100%;
+        display: inline;
+    }
+    .Hool>h2{
+        margin-bottom: 10px;
+    }
+    .Hool-body{
+        line-height: 1.1rem;
+        font-size: 0.7rem;
+    }
+    .email-form{
+        margin: 10px 0;
+        width: 100%;
+    } 
+    .email{
+        font-size: .63rem;
+        padding: 7px;
+        outline-width: 0.2px;
+        outline-offset: 1px;
+    }
+    button{
+        font-size: 1rem;
+        border-radius: 3px;
+    }
+    .fa-paper-plane{
+        font-size: 1rem;
+        padding: 6px;
+        border-radius: 3px;
+    }
+    .our-services{
+        flex-basis: 100%;
+        line-height: 1.1rem;
+    }
+    .our-services-heading{ 
+        font-size: 1.4rem;  
+        padding-bottom: 10px;
+        font-weight: normal;
+    }
+    .our-services a{
+        font-size: 0.7rem;
+        padding:0 0px;
+    }
+    .our-services p{
+        margin-bottom: -15px;
+    }
+    .Company{
+        margin-top: 30px;
+        flex-basis: 100%;
+        line-height: 1.1rem;
+    }
+    .Company-heading{
+        font-weight: normal; 
+        font-size: 1.4rem; 
+        padding-bottom: 10px;
+    }
+    .Company a{
+        font-size: 0.7rem;
+        padding:0 0px;
+    }
+    .Company p{
+        margin-bottom: -15px;
+    }
+    #Contact-Us{
+        flex-basis: 100%;
+        margin-top: 40px;
+    }
+    #Contact-Us main{
+        font-weight: normal; 
+        font-size: 1.2rem; 
+        padding-bottom: 0px;
+    }
+    #Contact-Us p{
+        line-height: 1.1rem;
+        font-size: 0.7rem;
+        margin: 5px 0;
+    }
+    .social-media{
+        column-gap: 10px;
+    }
+    .social-media i{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .social-media>div{
+        padding-bottom: 3px;
+    }
+    .footer-end{
+        flex-wrap: wrap;
+        margin-top: 5px;
+        font-size: 0.7rem;
+    }
+    .footer-end div{
+        font-size: 0.7rem;
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 0.7rem;
+    }
+    .privacy-terms{
+        margin-left: 20px;
+    }
+}   

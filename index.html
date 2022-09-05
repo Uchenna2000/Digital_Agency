@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DIGITAL AGENCY SOLUTIONS</title>
+
+	<link rel="stylesheet" type="text/css" href="Digital_Agency.css">
+	<link rel="stylesheet" type="text/css" href="media_queries.css">
+
+	<!-- FONT AWESOME-->
+	<script src="https://kit.fontawesome.com/2636c6ca24.js" crossorigin="anonymous"></script>
+	<!-- FONT AWESOME-->
+
+	<!--GOOGLE FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+	<!-- favicon -->
+	<link rel="icon" type="image/jpg" href="hoolix.jpg">
+</head>
+<body>
+
+	<!-- HEADER-->
+	<div id = "header" style="background-color: rgb(240 253 244); padding-bottom: 1px; height: 80px;">
+
+		<div class="Hoolix">
+			<h1 class="">Hoolix</h1>
+		</div>
+
+		<div class="nav-bar">
+					<div>
+						<a class = "home" href="#hero">Home</a>
+					</div>
+					<div>
+						<a href="#about">About</a>
+					</div>
+					<div>
+						<a href="#services">Service</a>
+					</div>
+					<div>
+						<a href="#features">Features</a>
+					</div>
+					<div>
+						<a href="#faq">FAQs</a>
+					</div>
+					<div>
+						<a href="#footer">Contact Us</a>
+					</div>
+		</div>
+
+		<div class=" lets-talk-container" >
+			<a href ="" class="lets-talk">LETS TALK</a>
+			<i class="fa-solid fa-bars" style="cursor: pointer;" id="menu" onclick="showMobile()"></i>
+		</div> 
+	</div>
+	<!-- HEADER END-->
+
+	<!--RESPONSIVE SECTION-->
+	<div style="display: none;" id="showNav">
+		<div id="res-nav-bar" style="padding-top: 30px;">
+				<div id="res-list">
+					<div style="font-size: 2rem; font-weight: bold; margin-bottom: 25px; font-family: 'Cuprum', sans-serif;">
+						Hoolix
+					</div>
+					<div>
+						<a href="#hero" style="color:white;"  onclick="removeMobile()">Home</a>
+					</div>
+					<div>
+						<a href="#about" style="color:white;" onclick="removeMobile()">About</a>
+					</div>
+					<div>
+						<a href="#services" style="color:white;" onclick="removeMobile()">Service</a>
+					</div>
+					<div>
+						<a href="#features" style="color:white;" onclick="removeMobile()">Features</a>
+					</div>
+					<div>
+						<a href="#faq" style="color:white" onclick="removeMobile()">FAQs</a>
+					</div>
+					<div>
+						<a href="#footer" style="color:white;" onclick="removeMobile()">Contact Us</a>
+					</div>
+				</div>
+				<div>
+					<i class="fa-solid fa-x" id="x" style="color:white; cursor: pointer;" onclick="removeMobile()"></i>
+				</div>
+		</div>
+	</div>
+	<!--END RESPONSIVE SECTION-->
+<script>
+	var showNav = document.getElementById("showNav")
+	var resNavbar = document.getElementById("res-nav-bar")
+	var menu = document.getElementById("menu")
+
+	var x = document.getElementById("x")
+	function showMobile() {
+		showNav.style.display = "block"
+		//resNavbar.style.marginTop = "-60px"
+		
+	}
+
+	function removeMobile() {
+		showNav.style.display = "none"
+	}
+
+	function noscroll() {
+		if (showNav.style.display === "block") {
+			window.scrollTo(0,0)
+		}
+	}
+	window.addEventListener("scroll", noscroll)
+
+</script>
+
+
+<!--HERO SECTION-->
+
+	<main class="hero-section" id="hero"> 
+
+		<div class="hero-text"> <!--HERO TEXT-->
+			<div class="hero-subtitle"> <!--welcome text-->
+				Welcome to Our Agency
+			</div>
+			<div>
+				<h1 class="smart-ideas">Smart Ideas for your Brand are Here</h1>
+			</div>
+			<div class="hero-desc-text">
+				Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que, vulputate ante quis, tempus enim. Proin quis euismod purus. Suspen disse efficitur aliquam enim sed consequat vulputate ante quis.
+			</div>
+				<div class="discover-play">
+					<a href="#" class="hero-btn" style="color:white;">DISCOVER MORE</a> 
+					<a href="9jaflaver_Flavour_Nnekata_Video.mp4" class="center"> <i class="fa-solid fa-play"></i>   </a>
+				</div>  
+		</div>
+
+
+		<div class="hero-image"> <!--HERO IMAGE-->
+			<img style="width: 100%; border-radius: 50%;" src="hero-banner.png">
+		</div>
+		
+	</main>
+
+
+<!--ABOUT SECTION-->
+
+	<main class="about-section" id="about"> 
+
+		<div class="about-image"> <!--ABOUT IMAGE-->
+			<img class="" style = "width: 100%;"src="about-banner.png">
+		</div>
+
+		<div class="about-text"> <!--ABOUT TEXT-->
+			<div>
+				<h1 class="about-text-heading">We create some things, Design for your success future.</h1>
+			</div>
+			<div class="about-text-content">
+				Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been the industrys standard dummy text ever.
+			</div>
+			<div class="list">
+				<ul>
+					<li>
+						Price of additional materials or parts (if needed)
+					</li>
+					<li>
+						Transportation cost for carrying new materials/parts
+					</li>
+					<li>
+						You will get 100% money back offer
+					</li>
+				</ul>
+			</div>
+			<div class="about-more">
+				<a href="#" class="know-more">KNOW MORE</a>
+				<div class="medal-exp">
+					<div> <i class="fa-solid fa-medal"></i> </div> 
+					<div class="experience">10+ Years Experience</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+
+
+<!-- SERVICES-SECTION-->
+	<main class="services-section" id="services">
+		<div class="what-we-offer">
+			What We Offer
+		</div>		
+		<div class="creative-services">
+			Our Creative Services
+		</div>
+		<div class="get-the-most">
+			Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX experiences.
+		</div>
+
+
+		<div class="services-container"> <!--flexbox or grid here-->
+			<div class="services-box">
+				<div class="services-img">
+					<img src="service-1.png" style="width: 100%;">
+				</div>
+
+				<div class="services-body">
+					<div class="services-heading">
+						UI/UX Creative Design
+					</div>
+				
+					<div class="services-text">
+						Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and adipiscing elit.
+						<p style="font-size: 0.85rem;">
+							<a href=""> Read More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+						</p>
+					</div>
+				</div>					
+			</div>
+
+			<div class="services-box">
+				<div class="services-img">
+					<img src="service-2.png" style="width: 100%;">
+				</div>
+				<div class="services-body">
+					<div class="services-heading">					
+						App Development
+					</div>
+				
+					<div class="services-text">
+						Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and adipiscing elit.
+						<p style="font-size: 0.85rem;">
+							<a href=""> Read More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+						</p>
+					</div>
+				</div>					
+			</div>
+
+			<div class="services-box">
+				<div class="services-img">
+					<img src="service-3.png" style="width: 100%;">
+				</div>
+
+				<div class="services-body">
+					<div class="services-heading">					
+						Professional Content Writer
+					</div>
+				
+					<div class="services-text">
+						Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and adipiscing elit.
+						<p style="font-size: 0.85rem;">
+							<a href=""> Read More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+						</p>
+					</div>
+				</div>					
+			</div>
+
+			<div class="services-box">
+				<div class="services-img">
+					<img src="service-4.png" style="width: 100%;">
+				</div>
+
+				<div class="services-body">
+					<div class="services-heading">					
+						Graphic Design
+					</div>
+				
+					<div class="services-text">
+						Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and adipiscing elit.
+						<p style="font-size: 0.85rem;">
+							<a href=""> Read More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+						</p>
+					</div>
+				</div>					
+			</div>
+
+		</div>
+		<div class="get-started">
+			<a href = "" style="color: white;">
+				GET STARTED
+			</a>
+		</div>
+		
+	</main>
+
+
+<!--FEATURES SECTION-->
+	<main id="features">
+		<div class="what-we-offer">
+			Why Choose Us
+		</div>		
+		<div class="creative-services">
+			Reasons to Choose Us
+		</div>
+		<div class="get-the-most">
+			Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX experiences.
+		</div>
+
+
+		<div class="features-list">
+			<!--01-->
+			<div class="features-box">
+
+				<div class="number">
+					01
+				</div>
+				<div class="features-heading">
+					Free Icon Plugin
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+			<!--02-->
+			<div class="features-box">
+
+				<div class="number">
+					02
+				</div>
+				<div class="features-heading">
+					Free 6 Month Support
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+			<!--03-->
+			<div class="features-box">
+
+				<div class="number">
+					03
+				</div>
+				<div class="features-heading">
+					Customer Strategy
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+			<!--04-->
+			<div class="features-box">
+
+				<div class="number">
+					04
+				</div>
+				<div class="features-heading">
+					Best Premimum Image
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+			<!--05-->
+			<div class="features-box">
+
+				<div class="number">
+					05
+				</div>
+				<div class="features-heading">
+					Most Advanced Features
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+			<!--06-->
+			<div class="features-box">
+
+				<div class="number">
+					06
+				</div>
+				<div class="features-heading">
+					Very Reasonable Price
+				</div>
+				<div class="features-text">
+					Nullam ullamcorper condimentum urna eu accumsan.
+				</div>
+				
+			</div>
+		</div>		
+
+	</main>
+
+
+<!--FAQS SECTION-->
+<main id="faq">
+	<div class="frequently">
+		Discover Some Of Our Frequently Asked Questions
+	</div>
+	<!--questions-->
+	<div class="questions">
+		<div id="q1">
+			01. Curious about how to build your own UX strategy? Here are five simple steps. 
+				<div>
+					<i class="fa-solid fa-plus" id="plus01"></i> <i class="fa-solid fa-minus" id="minus01"></i>
+				</div>
+		</div>
+				<div id="answer1">
+				Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, libero ex hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit amet condimentum erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper.
+				</div>
+
+
+		<div id="q2" onclick="show2()">
+			02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance? <i class="fa-solid fa-plus" id="plus02"></i> <i class="fa-solid fa-minus" id="minus02"></i>
+		</div>
+				<div id="answer2">
+				Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, libero ex hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit amet condimentum erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper.
+				</div>
+
+
+		<div id="q3" onclick="show3()">
+			03. What Is a Problem Statement in UX? (And How To Write One)?  <i class="fa-solid fa-plus" id="plus03"></i> <i class="fa-solid fa-minus" id="minus03"></i>
+
+		</div>
+				<div id="answer3">
+				Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, libero ex hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit amet condimentum erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper.
+				</div>
+
+
+		<div id="q4" onclick="show4()">
+			04. There are several techniques UX designers employ to arrive at a succinct? <i class="fa-solid fa-plus" id="plus04"></i> <i class="fa-solid fa-minus" id="minus04"></i>
+		</div>
+				<div id="answer4">
+					Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, libero ex hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit amet condimentum erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper.
+				</div>
+
+		
+		<div id="q5" onclick="show5()">
+			05. What are the obstacles users are facing? What are they trying to do? <i class="fa-solid fa-plus" id="plus05"></i> <i class="fa-solid fa-minus" id="minus05"></i>
+		</div>
+				<div id="answer5">
+					Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, libero ex hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit amet condimentum erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper.
+				</div>
+
+	
+	</div>
+
+
+</main>
+
+<!--FOOTER SECTION-->
+	<main id="footer">
+		<div class="footer-body">
+			<div class="Hool">
+				<h2 style="font-size: 1.9rem; font-family: 'Cuprum', sans-serif;">Hoolix</h2>
+				<div class="Hool-body">
+					Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+				</div>
+				<form action="" class="email-form">
+					<input type="email" name="Email" placeholder="Enter your email" class="email" required>
+					<button type="submit"> <i class="fa-solid fa-paper-plane"></i> </button>
+				</form>
+				
+				
+			</div>
+
+			<div class="our-services">
+				<p class="our-services-heading" >
+					Our Services
+				</p>
+				<p>
+					<a href="">Strategy & Research</a>
+				
+				<p>
+					<a href="">Web Development</a>
+				</p>
+				<p>
+					<a href="">Web Solution</a>
+				</p>
+				<p>
+					<a href="">Digital Merketing</a>
+				</p>
+				<p>
+					<a href="">App Design</a>
+				</p>
+				<p>
+					<a href="">App Development</a>
+				</p>
+				
+			</div>
+
+			<div class="Company">
+				<p class="Company-heading">
+					Company
+				</p>
+				<p>
+					<a href="">About Company</a>
+				</p>
+				<p>
+					<a href="">Our Services</a>
+				</p>
+				<p>
+					<a href="">Our Portfolio</a>
+				</p>
+				<p>
+					<a href="">Our Blog</a>
+				</p>
+				<p>
+					<a href="">Latest News</a>
+				</p>
+				<p>
+					<a href="">Contact Us</a>
+				</p>
+				
+				
+			</div>
+
+			<div id="Contact-Us">
+				<p id="Contact-Us-heading">
+					<main>Contact Us</main>
+				</p>
+				
+				<p>
+					<i class="fa-solid fa-location-dot" style="color:rgb(34 197 94);"></i> 4517 Washington Ave. Manchester, Kentucky 39495
+				</p>
+				<p>
+					<i class="fa-solid fa-phone" style="color:rgb(34 197 94);"></i>
+					<a href="Tel:+2348122698976">+2348122698976</a>
+				</p>
+				<p>
+					<i class="fa-solid fa-envelope" style="color:rgb(34 197 94);"></i>
+					<a href="mailto:okaforuchenna66@gmail.com">okaforuchenna66@gmail.com</a>
+				</p>
+				<hr style="margin-bottom: 20px;">
+				<div class="social-media">
+					<div class="facebook">
+						<a href="https://www.facebook.com/okafor.uchegift">
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+					</div>
+					<div class="whatsapp">
+						<a href="https://wa.me/2348122698976">
+							<i class="fa-brands fa-whatsapp"></i>
+						</a>
+					</div>
+					<div class="twitter"> 
+						<a href="https://twitter.com/okaforuche_g?t=mWnfDbQm-h106S1gUqWYgg&s=09">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+					</div>
+					<div class="instagram">
+						<a href="https://instagram.com/okafor.gift.uchenna?igshid=YmMyMTA2M2Y=">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-end">
+			<div class="copyright">
+				&copy; 2022 Hoolix | All Rights Reserved by <span style="color:rgb(34 197 94);">Uchenna</span>
+			</div>
+			<div class="privacy-terms">
+				<a href = "">
+					Privacy Policy
+				</a>
+				<a href = "">
+					Terms oF Use
+				</a>
+			</div>
+			
+		</div>
+		
+	</main>
+
+
+<script>
+
+	var plus01 = document.getElementById("plus01")
+	var minus01 = document.getElementById("minus01")
+	var plus02 = document.getElementById("plus02")
+	var minus02 = document.getElementById("minus02")
+	var plus03 = document.getElementById("plus03")
+	var minus03 = document.getElementById("minus03")
+	var plus04 = document.getElementById("plus04")
+	var minus04 = document.getElementById("minus04")
+	var plus05 = document.getElementById("plus05")
+	var minus05 = document.getElementById("minus05")
+
+	minus01.style.display = "none"
+	minus02.style.display = "none"
+	minus03.style.display = "none"
+	minus04.style.display = "none"
+	minus05.style.display = "none"
+
+	//01
+	var answer1 = document.getElementById("answer1") 
+	var q1 = document.getElementById("q1")
+	q1.addEventListener("click", show1)
+	function show1() {
+		if (answer1.style.display === "none") {
+			answer1.style.display = "block"
+			q1.style.marginBottom = 0
+			plus01.style.display = "none"
+			minus01.style.display = "inline"
+		} else {
+			answer1.style.display = "none"
+			q1.style.marginBottom = "13px"
+			plus01.style.display = "inline"
+			minus01.style.display = "none"
+		}
+
+		/*answer1.style.display = "block"
+		q1.style.marginBottom = 0
+		answer1.style.margintop = 0*/
+	}
+
+	//02
+	var answer2 = document.getElementById("answer2")
+	var q2 = document.getElementById("q2")
+	function show2() {
+		if (answer2.style.display === "none") {
+			answer2.style.display = "block"
+			q2.style.marginBottom = 0
+			plus02.style.display = "none"
+			minus02.style.display = "inline"
+		} else {
+			answer2.style.display = "none"
+			q2.style.marginBottom = "13px"
+			plus02.style.display = "inline"
+			minus02.style.display = "none"
+		}
+	}
+
+	//03
+	var answer3 = document.getElementById("answer3")
+	var q3 = document.getElementById("q3")
+	function show3() {
+		if (answer3.style.display === "none") {
+			answer3.style.display = "block"
+			q3.style.marginBottom = 0
+			plus03.style.display = "none"
+			minus03.style.display = "inline"
+		} else {
+			answer3.style.display = "none"
+			q3.style.marginBottom = "13px"
+			plus03.style.display = "inline"
+			minus03.style.display = "none"
+		}
+	}
+
+	//04
+	var answer4 = document.getElementById("answer4")
+	var q4 = document.getElementById("q4")
+	function show4() {
+		if (answer4.style.display === "none") {
+			answer4.style.display = "block"
+			q4.style.marginBottom = 0
+			plus04.style.display = "none"
+			minus04.style.display = "inline"
+		} else {
+			answer4.style.display = "none"
+			q4.style.marginBottom = "13px"
+			plus04.style.display = "inline"
+			minus04.style.display = "none"
+		}
+	}
+
+	//05
+	var answer5 = document.getElementById("answer5")
+	var q5 = document.getElementById("q5")
+	function show5() {
+		if (answer5.style.display === "none") {
+			answer5.style.display = "block"
+			q5.style.marginBottom = 0
+			plus05.style.display = "none"
+			minus05.style.display = "inline"
+		} else {
+			answer5.style.display = "none"
+			q5.style.marginBottom = "13px"
+			plus05.style.display = "inline"
+			minus05.style.display = "none"
+		}
+	}
+	
+</script>	
+</body>
+</html>
